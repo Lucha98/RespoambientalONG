@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;}
+}
+body{
+    margin: auto;
+    background-color: white;
+}
+.caja{
+    border-style: solid;
+    border-color: white;
+    height: 500px;    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    width: 0px;
+}
+.blanco{
+    background-color: white;
+    height: 150px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+  .caja3{
+    
+    align-items: center;
+  }
+  h1{
+    color: #6DB42D;
+    font-family: Bubble;
+    text-align: center;
+  }
+  @font-face{
+    font-family: Bubble;
+    src: url(letra1.ttf);
+  }
+  hr{
+    background-color: orange;
+  }
+  p1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+  }
+  .gris{
+    background-color: gray;
+    height: 250px;
+  }
+.co{
+    float: left;
+  }
+p2{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.lu{
+    float: left;
+  }
+.gris2{
+    background-color: #E8E8E8;
+  }
+.caja6{
+    margin: auto;
+}
+h3{
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+  p3{
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+.gris3{
+    background-color: #262626;
+    width: 1000px;
+  }
+p{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+}
